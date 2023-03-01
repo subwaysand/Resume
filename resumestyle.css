@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(2, 143, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    max-width: 60vw;
+    min-height: 100vh;
+    background: white;
+    margin: 2vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 2vh 4vh rgba(128, 128, 128, 0.37);
+}
+
+.container .left_Side {
+    position: relative;
+    background: rgb(158, 160, 158);
+    padding: 3vh;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.836);
+}
+
+.profileText .picBox {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#shrekky {
+    position: relative;
+    align-self: center;
+    right: 6vw;
+    width: 70vh;
+}
+
+.nameTitle h2 {
+    color: rgb(246, 246, 246);
+    font-size: 1.5em;
+    margin-top: 1vh;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-shadow: 0 1px 1px rgb(65, 65, 65);
+}
+
+.nameTitle h2 span {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+
+
+.contactInfo {
+    padding-top: 3vh;
+}
+
+.contactInfo .title {
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 1vh 0;
+    cursor: pointer;
+}
+
+
+
+.education {
+    padding-top: 3vh;
+}
+
+.container .right_Side {
+    position: relative;
+    background: rgb(110, 109, 109);
+    padding: 3vh;
+}
+
+
